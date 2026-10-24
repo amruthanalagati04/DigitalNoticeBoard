@@ -1,0 +1,6 @@
+{
+  "name": "College Digital Notice Board",
+  "description": "Centralized digital notice board for college administrators and students featuring academic updates, examination schedules, event alerts, and placement notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

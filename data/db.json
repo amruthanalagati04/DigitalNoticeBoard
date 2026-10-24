@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_001",
+      "name": "Dr. Evelyn Vance (Dean of Academics)",
+      "email": "admin@college.edu",
+      "password": "$2b$10$LUbFZHh44MaEV4tfpXx.VOuBHNLflCjtp1Qy.ZSXjmRCsyZZGMfiC",
+      "role": "admin",
+      "createdAt": "2026-10-10T06:13:17.875Z",
+      "updatedAt": "2026-10-10T06:13:17.875Z"
+    },
+    {
+      "_id": "usr_student_001",
+      "name": "Alex Rivera",
+      "email": "student@college.edu",
+      "password": "$2b$10$CSCmmIRgptrEqw0StJLxpuVqZyZO68ccvGZRjsQGV46e6osx8Tg0i",
+      "role": "student",
+      "createdAt": "2026-10-10T06:13:17.875Z",
+      "updatedAt": "2026-10-10T06:13:17.875Z"
+    },
+    {
+      "_id": "usr_1791612830396_e0ze7",
+      "name": "Priya Sharma",
+      "email": "priya@student.edu",
+      "password": "$2b$10$M3euSATqCXa7VboyGVOB2ObDUEXCFwzTj5s1wlaJwTO5phTfpXmNm",
+      "role": "student",
+      "createdAt": "2026-10-10T06:13:50.396Z",
+      "updatedAt": "2026-10-10T06:13:50.396Z"
+    }
+  ],
+  "notices": [
+    {
+      "_id": "ntc_001",
+      "title": "End-Semester Examination Schedule - Spring 2026",
+      "description": "The finalized timetable for the Spring 2026 End-Semester Examinations for all B.Tech and M.Tech departments is now released. Students must carry their institutional ID card and hall tickets into the examination halls. Cellphones, smartwatches, and programmable calculators are strictly prohibited. Refer to Annexure-A on the portal for detailed slot distributions.",
+      "category": "Examination",
+      "date": "2026-10-15",
+      "createdBy": {
+        "_id": "usr_admin_001",
+        "name": "Dr. Evelyn Vance (Dean of Academics)",
+        "email": "admin@college.edu",
+        "role": "admin"
+      },
+      "pinned": true,
+      "department": "Controller of Examinations",
+      "createdAt": "2026-10-09T06:13:18.092Z",
+      "updatedAt": "2026-10-09T06:13:18.092Z"
+    },
+    {
+      "_id": "ntc_002",
+      "title": "Campus Recruitment Drive: Google & Microsoft Cloud Engineering",
+      "description": "The Training & Placement Cell invites eligible Final-Year CSE, IT, and ECE students (minimum CGPA 7.5 with no standing backlogs) to register for the upcoming on-campus technical assessments. The preliminary online aptitude and coding round will commence on October 22, 2026. Submit your updated resumes through the placement portal before midnight on October 18.",
+      "category": "Placement",
+      "date": "2026-10-18",
+      "createdBy": {
+        "_id": "usr_admin_001",
+        "name": "Dr. Evelyn Vance (Dean of Academics)",
+        "email": "admin@college.edu",
+        "role": "admin"
+      },
+      "pinned": true,
+      "department": "Training & Placement Cell",
+      "createdAt": "2026-10-08T06:13:18.092Z",
+      "updatedAt": "2026-10-08T06:13:18.092Z"
+    },
+    {
+      "_id": "ntc_003",
+      "title": "Annual National Technical Symposium - Lakshya LBRCE 2026 Registrations Open",
+      "description": "The Department of Computer Science & Engineering presents the Annual Edition of Lakshya LBRCE, a national-level technical symposium and hackathon with project expos, paper presentations, and coding contests. Inter-college teams of 3 to 4 members can register through the department desk or online portal.",
+      "category": "Events",
+      "date": "2026-10-25",
+      "createdBy": {
+        "_id": "usr_admin_001",
+        "name": "Dr. Evelyn Vance (Dean of Academics)",
+        "email": "admin@college.edu",
+        "role": "admin"
+      },
+      "pinned": false,
+      "department": "Department of CSE, LBRCE",
+      "createdAt": "2026-10-07T06:13:18.092Z",
+      "updatedAt": "2026-10-07T06:13:18.092Z"
+    },
+    {
+      "_id": "ntc_004",
+      "title": "Revised Academic Calendar & Winter Break Notification",
+      "description": "The Academic Council has approved adjustments to the academic calendar for the current semester. Classes for all ongoing semesters will conclude on November 28, 2026, followed by practical viva voce exams. Winter vacation will be observed from December 15, 2026 to January 04, 2027.",
+      "category": "Academic",
+      "date": "2026-10-12",
+      "createdBy": {
+        "_id": "usr_admin_001",
+        "name": "Dr. Evelyn Vance (Dean of Academics)",
+        "email": "admin@college.edu",
+        "role": "admin"
+      },
+      "pinned": false,
+      "department": "Dean of Academic Affairs",
+      "createdAt": "2026-10-06T06:13:18.092Z",
+      "updatedAt": "2026-10-06T06:13:18.092Z"
+    },
+    {
+      "_id": "ntc_005",
+      "title": "Central Library Extended Study Hours During Exam Weeks",
+      "description": "In anticipation of semester finals, the Central University Library will remain open 24/7 starting from Monday, October 16 until the conclusion of the examination schedule. The digital kiosk, Wi-Fi zones, and quiet reading halls on the 2nd and 3rd floors will have uninterrupted power backup and cafeteria service.",
+      "category": "General",
+      "date": "2026-10-14",
+      "createdBy": {
+        "_id": "usr_admin_001",
+        "name": "Dr. Evelyn Vance (Dean of Academics)",
+        "email": "admin@college.edu",
+        "role": "admin"
+      },
+      "pinned": false,
+      "department": "University Library Committee",
+      "createdAt": "2026-10-05T06:13:18.092Z",
+      "updatedAt": "2026-10-05T06:13:18.092Z"
+    },
+    {
+      "_id": "ntc_006",
+      "title": "Mid-Term Lab Performance Evaluations & Submission Deadline",
+      "description": "All 3rd and 5th-semester laboratory records, project milestones, and git repository submissions must be certified by corresponding lab faculty before October 19, 2026. Incomplete lab journals will not be awarded internal grading weightage.",
+      "category": "Academic",
+      "date": "2026-10-19",
+      "createdBy": {
+        "_id": "usr_admin_001",
+        "name": "Dr. Evelyn Vance (Dean of Academics)",
+        "email": "admin@college.edu",
+        "role": "admin"
+      },
+      "pinned": false,
+      "department": "Academic Evaluation Office",
+      "createdAt": "2026-10-04T06:13:18.092Z",
+      "updatedAt": "2026-10-04T06:13:18.092Z"
+    },
+    {
+      "_id": "ntc_007",
+      "title": "Supplementary & Revaluation Examination Form Submissions",
+      "description": "Students applying for revaluation or appearing for odd-semester supplementary examinations must submit Form-B along with bank challan receipts at the Registrar office by October 24, 2026. Late submissions will incur standard administrative penalty charges.",
+      "category": "Examination",
+      "date": "2026-10-24",
+      "createdBy": {
+        "_id": "usr_admin_001",
+        "name": "Dr. Evelyn Vance (Dean of Academics)",
+        "email": "admin@college.edu",
+        "role": "admin"
+      },
+      "pinned": false,
+      "department": "Examination Branch",
+      "createdAt": "2026-10-03T06:13:18.092Z",
+      "updatedAt": "2026-10-03T06:13:18.092Z"
+    }
+  ]
+}
